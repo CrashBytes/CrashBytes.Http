@@ -8,9 +8,9 @@
 
     <!-- NuGet Package Metadata -->
     <PackageId>CrashBytes.Http</PackageId>
-    <Version>0.1.0</Version>
     <Authors>CrashBytes</Authors>
     <Company>CrashBytes</Company>
+    <Copyright>Copyright (c) 2026 CrashBytes</Copyright>
     <Description>Convention-based typed HTTP client helpers for .NET — auto-wired retry, correlation IDs, and bearer tokens.</Description>
     <PackageTags>http;httpclient;typed-client;retry;resilience;correlation-id</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -18,6 +18,14 @@
     <RepositoryUrl>https://github.com/CrashBytes/CrashBytes.Http</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Symbol packages for source debugging -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MinVer" Version="5.*" PrivateAssets="All" />
+  </ItemGroup>
 
 </Project>
