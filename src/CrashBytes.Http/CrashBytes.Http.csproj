@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>CrashBytes.Http</RootNamespace>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>CrashBytes.Http</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>CrashBytes</Authors>
+    <Company>CrashBytes</Company>
+    <Description>Convention-based typed HTTP client helpers for .NET — auto-wired retry, correlation IDs, and bearer tokens.</Description>
+    <PackageTags>http;httpclient;typed-client;retry;resilience;correlation-id</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/CrashBytes/CrashBytes.Http</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CrashBytes/CrashBytes.Http</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>
